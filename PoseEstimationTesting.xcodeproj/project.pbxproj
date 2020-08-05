@@ -13,6 +13,8 @@
 		26030C9C24D96668006796F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26030C9A24D96668006796F8 /* Main.storyboard */; };
 		26030C9E24D9666B006796F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26030C9D24D9666B006796F8 /* Assets.xcassets */; };
 		26030CA124D9666B006796F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26030C9F24D9666B006796F8 /* LaunchScreen.storyboard */; };
+		26030CAE24D96847006796F8 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26030CAD24D96847006796F8 /* VideoCapture.swift */; };
+		26030CB024DAADBA006796F8 /* Measure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26030CAF24DAADBA006796F8 /* Measure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		26030C9D24D9666B006796F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26030CA024D9666B006796F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26030CA224D9666B006796F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26030CAD24D96847006796F8 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		26030CAF24DAADBA006796F8 /* Measure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Measure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,11 @@
 		26030C9324D96668006796F8 /* PoseEstimationTesting */ = {
 			isa = PBXGroup;
 			children = (
+				26030CAC24D96795006796F8 /* PoseEstimation Models */,
 				26030C9424D96668006796F8 /* AppDelegate.swift */,
 				26030C9624D96668006796F8 /* SceneDelegate.swift */,
+				26030CAD24D96847006796F8 /* VideoCapture.swift */,
+				26030CAF24DAADBA006796F8 /* Measure.swift */,
 				26030C9824D96668006796F8 /* ViewController.swift */,
 				26030C9A24D96668006796F8 /* Main.storyboard */,
 				26030C9D24D9666B006796F8 /* Assets.xcassets */,
@@ -65,6 +72,13 @@
 				26030CA224D9666B006796F8 /* Info.plist */,
 			);
 			path = PoseEstimationTesting;
+			sourceTree = "<group>";
+		};
+		26030CAC24D96795006796F8 /* PoseEstimation Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "PoseEstimation Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26030CB024DAADBA006796F8 /* Measure.swift in Sources */,
 				26030C9924D96668006796F8 /* ViewController.swift in Sources */,
 				26030C9524D96668006796F8 /* AppDelegate.swift in Sources */,
+				26030CAE24D96847006796F8 /* VideoCapture.swift in Sources */,
 				26030C9724D96668006796F8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
